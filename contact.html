@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>contact</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="icon" href="./img/logo@2x.png" />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <header>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <div class="container">
+            <a class="navbar-brand d-flex gap-3 logo" href="index.html"
+              ><div><img src="./img/logo@2x.png" alt="logo" /></div>
+              <div class="d-flex flex-column gap-1">
+                <span class="logo-word">Weather</span
+                ><span class="logo-text">tagline goes here</span>
+              </div></a
+            >
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              class="collapse navbar-collapse text-center"
+              id="navbarSupportedContent"
+            >
+              <ul class="navbar-nav ms-auto gap-4 py-5">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="index.html"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">News</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Live Cameras</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Photos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contact.html">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <main class="container">
+        <nav style="--bs-breadcrumb-divider: '&rarr;'" aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Contact</li>
+          </ol>
+        </nav>
+
+        <div class="row py-5 g-5">
+          <div class="col-lg-6 col-12">
+            <div
+              class="address-box d-flex gap-3 flex-column justify-content-end"
+            >
+              <div class="address d-flex gap-3 align-items-center">
+                <i class="fa-solid fa-location-dot"></i>
+                <p>
+                  Weather App
+                  <br />
+                  204 Avenue Street, Los Angeles
+                </p>
+              </div>
+              <div class="phone-mail d-flex gap-4">
+                <div class="phone d-flex gap-3 align-items-center">
+                  <i class="fa fa-phone" aria-hidden="true"></i>
+                  <a
+                    class="text-reset text-decoration-none"
+                    href="tele:+1800314235"
+                    >+1 800 314 235</a
+                  >
+                </div>
+                <div class="mail d-flex gap-3 align-items-center">
+                  <i class="fa-regular fa-envelope"></i>
+                  <a
+                    class="text-reset text-decoration-none"
+                    href="mailto:contact@companyname.com"
+                    >contact@companyname.com</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-12">
+            <h2 class="mb-4 display-6 fw-semibold">Contact us</h2>
+            <p class="small">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi
+              consectetur inventore ducimus, facilis, numquam id soluta omnis
+              eius recusandae nesciunt vero repellat harum cum. Nisi facilis
+              odit hic, ipsum sed!
+            </p>
+            <form class="py-4 text-end">
+              <div class="d-grid sending">
+                <input
+                  type="text"
+                  placeholder="Your name..."
+                  class="rounded-pill py-2 px-3"
+                />
+                <input
+                  type="text"
+                  placeholder="Your email..."
+                  class="rounded-pill py-2 px-3"
+                />
+                <input
+                  type="text"
+                  placeholder="Company name..."
+                  class="rounded-pill py-2 px-3"
+                />
+                <input
+                  type="text"
+                  placeholder="Website..."
+                  class="rounded-pill py-2 px-3"
+                />
+                <textarea placeholder="Message" cols="30" rows="3"></textarea>
+              </div>
+              <button class="btn btn-outline-info d-inline-block p-2 my-2">
+                ارسال
+              </button>
+            </form>
+          </div>
+        </div>
+      </main>
+
+      <footer id="contactFooter" class="py-5 mt-5">
+        <div
+          class="container d-flex flex-column align-items-center align-items-lg-start flex-lg-row gap-4 justify-content-lg-between"
+        >
+          <div
+            class="d-flex flex-column gap-4 w-75 align-items-center align-items-lg-start"
+          >
+            <div
+              class="input-group container search-input rounded-pill max-width-100 py-2 position-static"
+            >
+              <input
+                type="email"
+                placeholder="Enter your email"
+                class="form-control border-0 shadow-none mx-2 bg-transparent"
+              />
+              <button
+                class="input-group-text btn btn-outline-info rounded-pill"
+                id="basic-addon1"
+              >
+                Subscribe
+              </button>
+            </div>
+            <p class="mb-0">
+              CopyRight 2023 &copy; By <strong> Ahmed Khaled </strong> All
+              Rights Reserved
+            </p>
+          </div>
+          <div class="logos d-flex gap-3">
+            <a
+              href="#"
+              class="btn btn-outline-info rounded-circle d-flex align-items-center justify-content-center"
+            >
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a
+              href="#"
+              class="btn btn-outline-info rounded-circle d-flex align-items-center justify-content-center"
+            >
+              <i class="fa-brands fa-pinterest-p"></i>
+            </a>
+            <a
+              href="#"
+              class="btn btn-outline-info rounded-circle d-flex align-items-center justify-content-center"
+            >
+              <i class="fa-brands fa-google-plus-g"></i>
+            </a>
+            <a
+              href="#"
+              class="btn btn-outline-info rounded-circle d-flex align-items-center justify-content-center"
+            >
+              <i class="fa-brands fa-twitter"></i>
+            </a>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
